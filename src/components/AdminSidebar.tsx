@@ -22,6 +22,11 @@ export function AdminSidebar({ className }: SidebarProps) {
 
     const items = [
         {
+            label: "Dashboard",
+            href: "/admin",
+            icon: LayoutDashboard,
+        },
+        {
             label: "Feeds",
             href: "/admin/feeds",
             icon: Rss,
@@ -57,9 +62,6 @@ export function AdminSidebar({ className }: SidebarProps) {
         <div className={cn("pb-12", className)}>
             <div className="space-y-4 py-4">
                 <div className="px-3 py-2">
-                    <h2 className="mb-2 px-4 text-lg font-semibold tracking-tight">
-                        Admin
-                    </h2>
                     <div className="space-y-1">
                         {items.map((item) => (
                             <Button
