@@ -1,8 +1,8 @@
 from apscheduler.schedulers.background import BackgroundScheduler
 from sqlalchemy.orm import Session
-from .. import database, models
-from .rss_service import update_feeds
-from . import ai_service
+from backend import database, models
+from backend.services.rss_service import update_feeds
+from backend.services import ai_service
 import logging
 from datetime import datetime, timedelta
 

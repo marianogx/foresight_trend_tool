@@ -6,8 +6,8 @@ import random
 import google.generativeai as genai
 from sqlalchemy.orm import Session
 import os
-from . import logger
-from .. import models, database
+from backend.services import logger
+from backend import models, database
 
 STEEPV_CATEGORIES = ["Social", "Technological", "Economic", "Environmental", "Political", "Values"]
 

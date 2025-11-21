@@ -1,8 +1,8 @@
 import feedparser
 from sqlalchemy.orm import Session
 from datetime import datetime, timedelta
-from .. import models, schemas
-from . import ai_service, logger
+from backend import models, schemas
+from backend.services import ai_service, logger
 
 def fetch_feed_articles(feed_url: str):
     # Some servers block requests without a User-Agent

@@ -1,8 +1,8 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from .database import engine, Base
-from .routers import feeds, articles, settings, curation, logs
-from .services import scheduler
+from backend.database import engine, Base
+from backend.routers import feeds, articles, settings, curation, logs
+from backend.services import scheduler
 from contextlib import asynccontextmanager
 
 # Create tables

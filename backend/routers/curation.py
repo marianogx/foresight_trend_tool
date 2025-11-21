@@ -2,8 +2,8 @@ from fastapi import APIRouter, Depends, HTTPException, BackgroundTasks
 from sqlalchemy.orm import Session
 from typing import List
 from datetime import datetime, timedelta
-from .. import models, schemas, database
-from ..services import ai_service
+from backend import models, schemas, database
+from backend.services import ai_service
 
 router = APIRouter(
     prefix="/curation",

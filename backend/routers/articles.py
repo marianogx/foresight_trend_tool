@@ -2,7 +2,7 @@ from fastapi import APIRouter, Depends, HTTPException, Query
 from sqlalchemy.orm import Session
 from typing import List, Optional
 from datetime import datetime
-from .. import models, schemas, database
+from backend import models, schemas, database
 
 router = APIRouter(
     prefix="/articles",

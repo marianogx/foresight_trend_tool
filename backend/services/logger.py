@@ -1,5 +1,5 @@
 from sqlalchemy.orm import Session
-from .. import models
+from backend import models
 import traceback
 
 def log_event(db: Session, level: str, event_type: str, message: str, details: dict = None):

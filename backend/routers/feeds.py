@@ -1,8 +1,8 @@
 from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
 from typing import List
-from .. import models, schemas, database
-from ..services import rss_service
+from backend import models, schemas, database
+from backend.services import rss_service
 
 router = APIRouter(
     prefix="/feeds",
