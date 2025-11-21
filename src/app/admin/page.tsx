@@ -56,13 +56,7 @@ export default function AdminDashboard() {
     );
 
     return (
-        <div className="container mx-auto py-12 space-y-12">
-            {/* Header */}
-            <div className="border-b border-border/50 pb-6">
-                <h1 className="text-4xl font-bold tracking-tight mb-2">Admin Dashboard</h1>
-                <p className="text-muted-foreground">Manage feeds, settings, and users.</p>
-            </div>
-
+        <div className="space-y-12">
             {/* Stats Grid */}
             <div>
                 <h2 className="text-2xl font-bold mb-6">Dashboard</h2>
