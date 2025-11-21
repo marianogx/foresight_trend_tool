@@ -38,13 +38,6 @@ export default function AdminLayout({
 
                 {/* Main Content */}
                 <div className="flex-1 w-full">
-                    <div className="space-y-0.5 mb-6">
-                        <h2 className="text-2xl font-bold tracking-tight">Admin Dashboard</h2>
-                        <p className="text-muted-foreground">
-                            Manage feeds, settings, and users.
-                        </p>
-                    </div>
-                    <Separator className="mb-6" />
                     {children}
                 </div>
             </div>
