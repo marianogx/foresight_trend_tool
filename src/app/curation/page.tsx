@@ -94,7 +94,7 @@ export default function CurationPage() {
             <div className="mb-12 border-b border-border/50 pb-6">
                 <div className="flex flex-col md:flex-row justify-between items-end gap-4">
                     <div>
-                        <h1 className="text-6xl font-serif font-bold tracking-tighter mb-2">Señales</h1>
+                        <h1 className="text-6xl font-bold tracking-tighter mb-2">Señales</h1>
                         <p className="text-muted-foreground font-mono text-sm uppercase tracking-widest">
                             Research & Strategy • Internal Document • ©2025
                         </p>
@@ -199,7 +199,7 @@ export default function CurationPage() {
                                         <section key={category} className="relative border-t border-border/30 pt-8">
                                             <div className="flex flex-col md:flex-row gap-8 md:gap-16 mb-8">
                                                 <div className="md:w-1/4">
-                                                    <span className="text-9xl font-serif font-bold text-muted/10 absolute -top-10 left-0 select-none">
+                                                    <span className="text-9xl font-bold text-muted/10 absolute -top-10 left-0 select-none">
                                                         {index + 1}
                                                     </span>
                                                     <h2 className="text-4xl font-bold relative z-10 mt-4 mb-2">{category}</h2>

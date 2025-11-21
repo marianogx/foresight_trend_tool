@@ -94,7 +94,7 @@ export default function TrendsPage() {
         <div className="px-5 py-12 min-h-screen flex flex-col">
             <div className="mb-12 border-b border-border/50 pb-6 flex justify-between items-end">
                 <div>
-                    <h1 className="text-6xl font-serif font-bold tracking-tighter mb-2">Tendencias</h1>
+                    <h1 className="text-6xl font-bold tracking-tighter mb-2">Tendencias</h1>
                     <p className="text-muted-foreground font-mono text-sm uppercase tracking-widest">
                         Weekly Intelligence Reports
                     </p>
@@ -118,14 +118,14 @@ export default function TrendsPage() {
                     {summaries.length === 0 ? (
                         <div className="flex flex-col items-center justify-center py-20 text-muted-foreground border border-dashed border-border/50 rounded-xl">
                             <FileText className="w-16 h-16 mb-4 opacity-20" />
-                            <p className="text-xl font-serif">No trend reports generated yet.</p>
+                            <p className="text-xl">No trend reports generated yet.</p>
                             <p className="text-sm mt-2">Reports are generated automatically every week.</p>
                         </div>
                     ) : (
                         summaries.map((summary, index) => (
                             <article key={summary.id} className="relative grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 border-t border-border/30 pt-8">
                                 <div className="lg:col-span-3">
-                                    <span className="text-9xl font-serif font-bold text-muted/10 absolute -top-10 left-0 select-none">
+                                    <span className="text-9xl font-bold text-muted/10 absolute -top-10 left-0 select-none">
                                         {summaries.length - index}
                                     </span>
                                     <div className="relative z-10 mt-4">

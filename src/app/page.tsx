@@ -138,7 +138,7 @@ export default function PublicPage() {
                 <CardHeader className="bg-card">
                   <div className="flex flex-col md:flex-row justify-between md:items-center gap-4">
                     <div>
-                      <CardTitle className="text-3xl font-serif">{latestReport.title}</CardTitle>
+                      <CardTitle className="text-3xl font-bold">{latestReport.title}</CardTitle>
                       <CardDescription className="mt-2 text-lg">
                         Published on {format(new Date(latestReport.created_at), "PPP")}
                       </CardDescription>

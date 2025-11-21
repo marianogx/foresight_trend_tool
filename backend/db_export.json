@@ -1,0 +1,260 @@
+{
+  "feeds": [
+    {
+      "id": 1,
+      "name": "World Economic Forum",
+      "url": "https://www.weforum.org/agenda/feed",
+      "category": "Signals Adjacentes",
+      "active": 1,
+      "last_fetched_at": null,
+      "created_at": "2025-11-20 16:45:26.852577"
+    },
+    {
+      "id": 2,
+      "name": "OECD RSS",
+      "url": "https://www.oecd.org/rss/",
+      "category": "Signals Adjacentes",
+      "active": 1,
+      "last_fetched_at": null,
+      "created_at": "2025-11-20 16:45:26.852581"
+    },
+    {
+      "id": 3,
+      "name": "Springwise",
+      "url": "https://www.springwise.com/features/updates/feed",
+      "category": "Signals Adjacentes",
+      "active": 1,
+      "last_fetched_at": null,
+      "created_at": "2025-11-20 16:45:26.852581"
+    },
+    {
+      "id": 4,
+      "name": "arXiv CS",
+      "url": "https://rss.arxiv.org/rss/cs",
+      "category": "Signals Adjacentes",
+      "active": 1,
+      "last_fetched_at": null,
+      "created_at": "2025-11-20 16:45:26.852582"
+    },
+    {
+      "id": 5,
+      "name": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/feed/",
+      "category": "Artificial Intelligence",
+      "active": 1,
+      "last_fetched_at": null,
+      "created_at": "2025-11-20 16:45:26.852582"
+    },
+    {
+      "id": 6,
+      "name": "HuggingFace Blog",
+      "url": "https://huggingface.co/blog/rss.xml",
+      "category": "Artificial Intelligence",
+      "active": 1,
+      "last_fetched_at": null,
+      "created_at": "2025-11-20 16:45:26.852582"
+    },
+    {
+      "id": 7,
+      "name": "Google AI Blog",
+      "url": "https://ai.googleblog.com/feeds/posts/default",
+      "category": "Artificial Intelligence",
+      "active": 1,
+      "last_fetched_at": null,
+      "created_at": "2025-11-20 16:45:26.852583"
+    },
+    {
+      "id": 8,
+      "name": "Road to VR",
+      "url": "https://www.roadtovr.com/feed/",
+      "category": "AR/VR",
+      "active": 1,
+      "last_fetched_at": null,
+      "created_at": "2025-11-20 16:45:26.852583"
+    },
+    {
+      "id": 9,
+      "name": "XR Today",
+      "url": "https://www.xrtoday.com/feed/",
+      "category": "AR/VR",
+      "active": 1,
+      "last_fetched_at": null,
+      "created_at": "2025-11-20 16:45:26.852583"
+    },
+    {
+      "id": 10,
+      "name": "ARPost",
+      "url": "https://arpost.co/feed/",
+      "category": "AR/VR",
+      "active": 1,
+      "last_fetched_at": null,
+      "created_at": "2025-11-20 16:45:26.852584"
+    },
+    {
+      "id": 11,
+      "name": "Automation.com",
+      "url": "https://www.automation.com/rss",
+      "category": "Automation",
+      "active": 1,
+      "last_fetched_at": null,
+      "created_at": "2025-11-20 16:45:26.852584"
+    },
+    {
+      "id": 12,
+      "name": "UiPath Blog",
+      "url": "https://www.uipath.com/blog/rss.xml",
+      "category": "Automation",
+      "active": 1,
+      "last_fetched_at": null,
+      "created_at": "2025-11-20 16:45:26.852584"
+    },
+    {
+      "id": 13,
+      "name": "Finextra",
+      "url": "https://www.finextra.com/rss/news.aspx",
+      "category": "Fintech",
+      "active": 1,
+      "last_fetched_at": null,
+      "created_at": "2025-11-20 16:45:26.852585"
+    },
+    {
+      "id": 14,
+      "name": "The Financial Brand",
+      "url": "https://thefinancialbrand.com/feed",
+      "category": "Fintech",
+      "active": 1,
+      "last_fetched_at": null,
+      "created_at": "2025-11-20 16:45:26.852585"
+    },
+    {
+      "id": 15,
+      "name": "Payments Dive",
+      "url": "https://www.paymentsdive.com/rss/",
+      "category": "Fintech",
+      "active": 1,
+      "last_fetched_at": null,
+      "created_at": "2025-11-20 16:45:26.852585"
+    },
+    {
+      "id": 16,
+      "name": "iupana",
+      "url": "https://iupana.com/feed/",
+      "category": "Fintech",
+      "active": 1,
+      "last_fetched_at": null,
+      "created_at": "2025-11-20 16:45:26.852585"
+    },
+    {
+      "id": 17,
+      "name": "Ambito Financiero Fintech",
+      "url": "https://www.ambito.com/rss/fintech.xml",
+      "category": "Fintech",
+      "active": 1,
+      "last_fetched_at": null,
+      "created_at": "2025-11-20 16:45:26.852586"
+    },
+    {
+      "id": 18,
+      "name": "MobiHealthNews",
+      "url": "https://www.mobihealthnews.com/rss.xml",
+      "category": "HealthTech",
+      "active": 1,
+      "last_fetched_at": null,
+      "created_at": "2025-11-20 16:45:26.852586"
+    },
+    {
+      "id": 19,
+      "name": "Nature npj Digital Medicine",
+      "url": "https://www.nature.com/npjdigitalmed.rss",
+      "category": "HealthTech",
+      "active": 1,
+      "last_fetched_at": null,
+      "created_at": "2025-11-20 16:45:26.852586"
+    },
+    {
+      "id": 20,
+      "name": "FDA Newsroom",
+      "url": "https://www.fda.gov/news-events/fda-newsroom/rss.xml",
+      "category": "HealthTech",
+      "active": 1,
+      "last_fetched_at": null,
+      "created_at": "2025-11-20 16:45:26.852587"
+    },
+    {
+      "id": 21,
+      "name": "The Robot Report",
+      "url": "https://www.therobotreport.com/feed/",
+      "category": "Robotics",
+      "active": 1,
+      "last_fetched_at": null,
+      "created_at": "2025-11-20 16:45:26.852587"
+    },
+    {
+      "id": 22,
+      "name": "IEEE Spectrum Robotics",
+      "url": "https://spectrum.ieee.org/rss/robotics/fulltext",
+      "category": "Robotics",
+      "active": 1,
+      "last_fetched_at": null,
+      "created_at": "2025-11-20 16:45:26.852587"
+    },
+    {
+      "id": 23,
+      "name": "CoinDesk",
+      "url": "https://www.coindesk.com/arc/outboundfeeds/rss/",
+      "category": "Web3",
+      "active": 1,
+      "last_fetched_at": null,
+      "created_at": "2025-11-20 16:45:26.852588"
+    },
+    {
+      "id": 24,
+      "name": "Decrypt",
+      "url": "https://decrypt.co/feed",
+      "category": "Web3",
+      "active": 1,
+      "last_fetched_at": null,
+      "created_at": "2025-11-20 16:45:26.852588"
+    },
+    {
+      "id": 25,
+      "name": "The Defiant",
+      "url": "https://thedefiant.io/feed",
+      "category": "Web3",
+      "active": 1,
+      "last_fetched_at": null,
+      "created_at": "2025-11-20 16:45:26.852588"
+    },
+    {
+      "id": 26,
+      "name": "Test Feed",
+      "url": "http://test.com/rss",
+      "category": "Test",
+      "active": 1,
+      "last_fetched_at": null,
+      "created_at": "2025-11-20 16:45:27.577139"
+    }
+  ],
+  "articles": [
+    {
+      "id": 1,
+      "feed_id": 26,
+      "title": "The Future of AI Agents in 2025",
+      "url": "http://test.com/article/1",
+      "summary": "AI agents are becoming more autonomous and capable of complex tasks. This article explores the trends and implications for various industries.",
+      "content": "Full content of the article...",
+      "image_url": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&auto=format&fit=crop&q=60",
+      "published_at": "2025-11-20 16:45:27.584835",
+      "steepv_category": "Tech",
+      "industry": "Software",
+      "is_featured": 0,
+      "signal_strength": "pending",
+      "ai_reasoning": "High relevance to current trends.",
+      "admin_notes": null,
+      "created_at": "2025-11-20 16:45:27.589404"
+    }
+  ],
+  "settings": [],
+  "trend_summaries": [],
+  "system_logs": []
+}

@@ -55,7 +55,7 @@ export default function LogsPage() {
     return (
         <div className="container mx-auto py-12 min-h-screen">
             <div className="mb-8">
-                <h1 className="text-4xl font-serif font-bold tracking-tighter mb-2">System Logs</h1>
+                <h1 className="text-4xl font-bold tracking-tighter mb-2">System Logs</h1>
                 <p className="text-muted-foreground">Monitor system events, errors, and AI activities.</p>
             </div>
 

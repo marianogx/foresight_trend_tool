@@ -4,8 +4,8 @@ import { Button } from "@/components/ui/button";
 export function Navbar() {
     return (
         <nav className="border-b bg-background">
-            <div className="flex h-16 items-center px-4 container mx-auto">
-                <Link href="/" className="font-bold text-xl mr-6 font-serif tracking-tight">
+            <div className="flex h-16 items-center px-5">
+                <Link href="/" className="font-bold text-xl mr-6 tracking-tight">
                     Señales
                 </Link>
                 <div className="flex items-center space-x-4 lg:space-x-6 mx-6">
