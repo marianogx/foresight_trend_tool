@@ -1,4 +1,4 @@
-const API_BASE_URL = "http://localhost:8000";
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "https://foresight-trend-tool.onrender.com";
 
 export async function fetchFeeds() {
     const res = await fetch(`${API_BASE_URL}/feeds/`);
