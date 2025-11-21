@@ -41,7 +41,7 @@ export default function AdminDashboard() {
 
     const StatCard = ({ title, value, icon: Icon, href, color }: any) => (
         <Link href={href}>
-            <Card className="hover:bg-muted/50 transition-colors cursor-pointer border-border/50">
+            <Card className="h-32 hover:bg-muted/50 transition-colors cursor-pointer border-border/50">
                 <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
                     <CardTitle className="text-sm font-medium font-mono uppercase tracking-wider text-muted-foreground">
                         {title}
