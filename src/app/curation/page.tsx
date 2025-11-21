@@ -90,7 +90,7 @@ export default function CurationPage() {
     const steepvCategories = ["Social", "Technological", "Economic", "Environmental", "Political", "Values"];
 
     return (
-        <div className="container mx-auto py-12 min-h-screen flex flex-col">
+        <div className="mx-auto max-w-screen-2xl px-6 py-12 min-h-screen flex flex-col">
             <div className="mb-12 border-b border-border/50 pb-6">
                 <div className="flex flex-col md:flex-row justify-between items-end gap-4">
                     <div>
