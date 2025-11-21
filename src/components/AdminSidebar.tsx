@@ -11,7 +11,8 @@ import {
     Users,
     Globe,
     CheckCircle2,
-    TrendingUp
+    TrendingUp,
+    ScrollText
 } from "lucide-react"
 
 interface SidebarProps extends React.HTMLAttributes<HTMLDivElement> { }
@@ -39,6 +40,11 @@ export function AdminSidebar({ className }: SidebarProps) {
             label: "Users",
             href: "/admin/users",
             icon: Users,
+        },
+        {
+            label: "Logs",
+            href: "/admin/logs",
+            icon: ScrollText,
         },
         {
             label: "Settings",

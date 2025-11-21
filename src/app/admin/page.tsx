@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import { fetchFeeds, fetchArticles, getTrendSummaries } from "@/lib/api";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Rss, FileText, CheckCircle2, TrendingUp } from "lucide-react";
+import { Rss, FileText, CheckCircle2, TrendingUp, ScrollText } from "lucide-react";
 import Link from "next/link";
 
 export default function AdminDashboard() {
@@ -87,6 +87,13 @@ export default function AdminDashboard() {
                     icon={TrendingUp}
                     href="/admin/trends"
                     color="text-green-500"
+                />
+                <StatCard
+                    title="System Logs"
+                    value="View"
+                    icon={ScrollText}
+                    href="/admin/logs"
+                    color="text-purple-500"
                 />
             </div>
 
