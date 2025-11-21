@@ -10,7 +10,7 @@ export default function AdminLayout({
     children: React.ReactNode
 }) {
     return (
-        <div className="mx-auto max-w-screen-2xl px-6 py-10">
+        <div className="px-5 py-10">
             <div className="flex flex-col space-y-8 lg:flex-row lg:space-x-12 lg:space-y-0">
                 {/* Mobile Sidebar */}
                 <div className="lg:hidden">

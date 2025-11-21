@@ -91,7 +91,7 @@ export default function TrendsPage() {
     };
 
     return (
-        <div className="mx-auto max-w-screen-2xl px-6 py-12 min-h-screen flex flex-col">
+        <div className="px-5 py-12 min-h-screen flex flex-col">
             <div className="mb-12 border-b border-border/50 pb-6 flex justify-between items-end">
                 <div>
                     <h1 className="text-6xl font-serif font-bold tracking-tighter mb-2">Tendencias</h1>
