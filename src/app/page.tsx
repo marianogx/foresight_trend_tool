@@ -53,19 +53,8 @@ export default function PublicPage() {
         <div className="container mx-auto px-4 py-4 flex justify-between items-center max-w-7xl">
           <div className="flex items-center gap-2 font-bold text-xl">
             <Radar className="h-6 w-6 text-primary" />
-            <span>Foresight Radar</span>
+            <span>Señales</span>
           </div>
-          <nav className="flex gap-4">
-            <Link href="/trends">
-              <Button variant="ghost">Trends</Button>
-            </Link>
-            <Link href="/curation">
-              <Button variant="ghost">Curation</Button>
-            </Link>
-            <Link href="/admin">
-              <Button variant="ghost">Admin</Button>
-            </Link>
-          </nav>
         </div>
       </header>
 
