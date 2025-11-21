@@ -22,6 +22,7 @@ export default function PublicPage() {
 
   // Filters
   const [selectedCategory, setSelectedCategory] = useState<string>("all");
+  const [selectedSteepv, setSelectedSteepv] = useState<string>("all");
   const [dateRange, setDateRange] = useState<{ from: Date | undefined; to: Date | undefined }>({
     from: startOfWeek(new Date()),
     to: new Date()
@@ -57,6 +58,7 @@ export default function PublicPage() {
 
   // Get unique categories from feeds
   const categories = ["all", ...Array.from(new Set(feeds.map(f => f.category).filter(Boolean)))];
+  const STEEPV_CATEGORIES = ["Social", "Technological", "Economic", "Environmental", "Political", "Values"];
 
   // Filter articles
   const filteredArticles = allArticles.filter((article: any) => {
@@ -64,6 +66,11 @@ export default function PublicPage() {
     if (selectedCategory !== "all") {
       const feed = feeds.find(f => f.id === article.feed_id);
       if (!feed || feed.category !== selectedCategory) return false;
+    }
+
+    // STEEPV filter
+    if (selectedSteepv !== "all") {
+      if (article.steepv_category !== selectedSteepv) return false;
     }
 
     // Date filter
@@ -166,13 +173,13 @@ export default function PublicPage() {
         {/* News Feed Section */}
         <section className="py-16">
           <div className="container mx-auto">
-            <div className="flex items-center justify-between mb-8">
+            <div className="flex items-center justify-between mb-6">
               <div className="flex items-center gap-2">
                 <Newspaper className="h-6 w-6 text-blue-500" />
                 <h2 className="text-3xl font-bold tracking-tight">Signal Feed</h2>
               </div>
 
-              {/* Filters */}
+              {/* Main Filters */}
               <div className="flex items-center gap-4">
                 <Select value={selectedCategory} onValueChange={setSelectedCategory}>
                   <SelectTrigger className="w-[180px]">
@@ -229,6 +236,27 @@ export default function PublicPage() {
                   </PopoverContent>
                 </Popover>
               </div>
+            </div>
+
+            {/* STEEPV Tabs */}
+            <div className="mb-8 flex gap-2 overflow-x-auto pb-2">
+              <Button
+                variant={selectedSteepv === "all" ? "default" : "outline"}
+                size="sm"
+                onClick={() => setSelectedSteepv("all")}
+              >
+                All
+              </Button>
+              {STEEPV_CATEGORIES.map(category => (
+                <Button
+                  key={category}
+                  variant={selectedSteepv === category ? "default" : "outline"}
+                  size="sm"
+                  onClick={() => setSelectedSteepv(category)}
+                >
+                  {category}
+                </Button>
+              ))}
             </div>
 
             {loading ? (
