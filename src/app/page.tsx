@@ -50,7 +50,7 @@ export default function PublicPage() {
     <div className="min-h-screen bg-background flex flex-col">
       {/* Header */}
       <header className="border-b sticky top-0 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 z-50">
-        <div className="container mx-auto px-4 py-4 flex justify-between items-center max-w-7xl">
+        <div className="container mx-auto px-6 py-4 flex justify-between items-center max-w-7xl">
           <div className="flex items-center gap-2 font-bold text-xl">
             <Radar className="h-6 w-6 text-primary" />
             <span>Señales</span>
@@ -61,7 +61,7 @@ export default function PublicPage() {
       <main className="flex-1">
         {/* Hero / Latest Report Section */}
         <section className="py-12 bg-muted/30 border-b">
-          <div className="container mx-auto px-4 max-w-7xl">
+          <div className="container mx-auto px-6 max-w-7xl">
             <div className="flex items-center gap-2 mb-6">
               <Zap className="h-6 w-6 text-yellow-500" />
               <h2 className="text-3xl font-bold tracking-tight">Latest Intelligence Report</h2>
@@ -106,7 +106,7 @@ export default function PublicPage() {
 
         {/* News Feed Section */}
         <section className="py-16">
-          <div className="container mx-auto px-4 max-w-7xl">
+          <div className="container mx-auto px-6 max-w-7xl">
             <div className="flex items-center gap-2 mb-8">
               <Newspaper className="h-6 w-6 text-blue-500" />
               <h2 className="text-3xl font-bold tracking-tight">Signal Feed</h2>
